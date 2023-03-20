@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(207, 207, 207);
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(244, 249, 254);
+}
+nav{
+    padding: 20px;
+    background-color: rgb(220, 220, 220);
+    border: 1px solid;
+    border-radius: 4px;
+}
+.Top-nav{
+    
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.Top-nav:hover{
+    
+    color: rgb(84, 84, 84);
+    text-decoration: underline;
+}
+.bg-image{
+    background-image: url("https://livability.com/wp-content/uploads/2022/06/Colorado-Springs-aerial-iStock-1268624137.jpg");
+    background-repeat: no-repeat;
+
+  /* Position and center the image to scale nicely on all screens */
+
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    padding: 10%;
+
+}
+.main-header{
+    color: rgb(255, 255, 255);
+}
+.service{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.service-items{
+    display:inline-block;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+i{
+    font-size: 40px;
+}
+.service-text{
+    font-size: 20px;
+}
+.portfolio-row{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.portfolio-column{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.My-work{
+    
+    background-color: rgb(103, 103, 103);
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
